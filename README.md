@@ -249,7 +249,7 @@ Contoh output (potongan):
   Kursi kosong tersisa: 18
 ```
 
-Output lengkap tersedia di [tiket_bus.docx](docs/output.txt).
+Output lengkap tersedia di [docs/output](tiket_bus.docx).
 
 ## 8. Pembagian Peran
 
