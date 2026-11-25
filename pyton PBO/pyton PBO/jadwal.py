@@ -7,6 +7,8 @@ from rute import Rute
 
 class Jadwal:
 
+     """Satu keberangkatan: rute + bus + waktu, sekaligus pengelola kursi yang terisi."""
+    
     def __init__(self, kode, rute, bus, berangkat):
         self.kode = kode
         self.rute = rute
