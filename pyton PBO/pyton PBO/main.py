@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # 6. Pemesanan ulang Sari yang valid (membuktikan 2A aman dari transaksi gagal sebelumnya)
     proses_pemesanan(jadwal, sari, ["2A"])
 
-    # 7. Pengujian Setter & Classmethod dengan DataTidakValidError
+    # 7. Pengujian Setter & Classmethod dengan Data Tidak Valid atau Error
     print("\n--- Pengujian Validasi Data ---")
     kasus_uji_data = [
         ("Tarif negatif", lambda: setattr(rute, "tarif_dasar", -5000)),
