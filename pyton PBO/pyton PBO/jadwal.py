@@ -6,7 +6,6 @@ from rute import Rute
 
 
 class Jadwal:
-    """Satu keberangkatan: rute + bus + waktu, sekaligus pengelola kursi yang terisi."""
 
     def __init__(self, kode, rute, bus, berangkat):
         self.kode = kode
@@ -75,7 +74,7 @@ class Jadwal:
             raise KursiSudahDipesanError(nomor, self.kode)
         self.__kursi_terisi.add(nomor)
 
-    def lepas_kursi(self, nomor):
+    def lepas_kursi(self,nomor):
         self.__kursi_terisi.discard(nomor)
 
     def __str__(self):
